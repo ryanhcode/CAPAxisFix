@@ -1,0 +1,14 @@
+{
+    "name": "CAPAxisFix",
+    "description": "Patches various accessibility issues in cadet online testing and cadet interactive",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://elearning.capnhq.gov/*"],
+            "css": ["axis-style-overrides.css"],
+            "js": ["axis-content-overrides.js"],
+            "run_at": "document_end"
+        }
+    ]
+}

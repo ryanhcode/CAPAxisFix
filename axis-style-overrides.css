@@ -1,0 +1,5 @@
+.user_theme_button:focus {
+    opacity: .8 !important;
+    border-color: transparent !important;
+    transition: opacity 250ms linear;
+}
